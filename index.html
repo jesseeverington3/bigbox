@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Walmart-like Homepage</title>
     <link rel="stylesheet" href="styles.css"> <!-- You can create a separate CSS file -->
-<style>
+    <style>
         /* Add styles for the banner */
         .banner {
             position: relative;
@@ -19,12 +19,10 @@
         }
 
         /* Style the search bar */
-        <div class="search-bar">
-            <input type="text" placeholder="Search...">
+        .search-bar {
             /* Your existing styles for the search bar */
         }
-
-
+    </style>
 </head>
 <body>
     <header class="header">
@@ -36,8 +34,12 @@
             <!-- Add more navigation links as needed -->
         </nav>
         <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
             <button>Search</button>
         </div>
+        <!-- Banner -->
+        <div class="banner"></div>
     </header>
 
     <section class="intro">
@@ -56,4 +58,5 @@
     </footer>
 </body>
 </html>
+
 
